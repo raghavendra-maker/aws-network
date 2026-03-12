@@ -1,6 +1,6 @@
 module "network" {
   source  = "app.terraform.io/test_pol/network/aws"
-  version = "1.0.0"
+  version = "1.0.1"
   vpc_cidr            = "172.16.0.0/16"
   vpc_name            = "CloudGroup"
   env                 = "Dev"
